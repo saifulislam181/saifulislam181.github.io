@@ -2,44 +2,84 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Md. Saiful Islam | Portfolio</title>
+  <title>Md. Saiful Islam | Software Developer & Data/ML</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio of Md. Saiful Islam - Software Developer, Data/ML, Cybersecurity & IT Support." />
+  <meta
+    name="description"
+    content="Portfolio of Md. Saiful Islam - Software Developer, Data & ML, Cyber Security and IT Support based in Cardiff, UK."
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <div class="container hero-content">
-      <div>
-        <h1>Md. Saiful Islam</h1>
-        <p class="hero-subtitle">
-          Software Developer&nbsp;|&nbsp;Data &amp; ML&nbsp;|&nbsp;Cyber Security&nbsp;|&nbsp;IT Support
-        </p>
-        <p class="hero-location">Cardiff, CF11 6QP, United Kingdom</p>
-        <div class="hero-links">
-          <a href="mailto:saifulislam.cse.uiu@gmail.com">saifulislam.cse.uiu@gmail.com</a>
-          <span>·</span>
-          <a href="tel:+447960074002">+44 7960 074002</a>
-        </div>
-        <div class="hero-links">
-          <a href="https://www.linkedin.com/in/saifulislam181" target="_blank">LinkedIn</a>
-          <span>·</span>
-          <a href="https://github.com/saifulislam181" target="_blank">GitHub</a>
-        </div>
-      </div>
+  <!-- Top Navigation -->
+  <header class="top-nav">
+    <div class="container nav-inner">
+      <div class="logo">Saiful<span>.</span></div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
   </header>
 
-  <main class="container">
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <p class="hero-kicker">MSc Advanced Computer Science · Cardiff, UK</p>
+        <h1>Md. Saiful Islam</h1>
+        <p class="hero-role">
+          Software Developer&nbsp;·&nbsp;Data &amp; ML&nbsp;·&nbsp;Cyber Security&nbsp;·&nbsp;IT Support
+        </p>
+        <p class="hero-text">
+          I build practical software solutions, data-driven systems, and secure applications using
+          Python, Java, PHP, SQL, and Flutter. I enjoy turning real-world problems into clean,
+          maintainable and scalable products.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn ghost">Contact Me</a>
+        </div>
+        <div class="hero-meta">
+          <span>📍 Cardiff, CF11 6QP, United Kingdom</span>
+          <span>🇬🇧 Eligible to work in the UK</span>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="info-card">
+          <h2>Contact</h2>
+          <ul>
+            <li>Email: <a href="mailto:saifulislam.cse.uiu@gmail.com">saifulislam.cse.uiu@gmail.com</a></li>
+            <li>Phone: <a href="tel:+447960074002">+44 7960 074002</a></li>
+            <li>GitHub: <a href="https://github.com/saifulislam181" target="_blank">github.com/saifulislam181</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/saifulislam181" target="_blank">linkedin.com/in/saifulislam181</a></li>
+          </ul>
+        </div>
+        <div class="info-card mini">
+          <h3>Focus Areas</h3>
+          <p>Backend Development · REST APIs · Data &amp; ML · Cyber Security Fundamentals · IT Support</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container main">
     <!-- About -->
     <section id="about" class="card">
       <h2>About Me</h2>
       <p>
-        I am an MSc Advanced Computer Science graduate from the University of South Wales
-        with hands-on experience across software development, data &amp; machine learning,
-        cyber security operations, and IT support. I enjoy building real-world solutions
-        such as complaint management apps, hospital systems, IoT automation, and
-        data-driven prediction models.
+        I am an MSc Advanced Computer Science graduate from the University of South Wales with
+        experience in software development, data &amp; machine learning, cyber security and IT support.
+        I have built full-stack systems (web &amp; mobile), IoT-based automation solutions, and
+        ML-driven analytics projects, along with hands-on work in security operations and QA.
+      </p>
+      <p>
+        My goal is to join a team where I can apply my skills to build reliable software, contribute
+        to technical decisions, and continuously grow as a developer and engineer.
       </p>
     </section>
 
@@ -47,43 +87,48 @@
     <section id="skills" class="card">
       <h2>Skills</h2>
       <div class="skills-grid">
-        <div>
+        <div class="skill-col">
           <h3>Programming</h3>
-          <ul>
-            <li>Python</li>
-            <li>Java</li>
-            <li>PHP</li>
-            <li>C++</li>
-            <li>Dart (Flutter)</li>
-          </ul>
+          <div class="pill-row">
+            <span class="pill">Python</span>
+            <span class="pill">Java</span>
+            <span class="pill">PHP</span>
+            <span class="pill">C++</span>
+            <span class="pill">Dart (Flutter)</span>
+          </div>
         </div>
-        <div>
+        <div class="skill-col">
           <h3>Web &amp; Mobile</h3>
-          <ul>
-            <li>PHP, HTML, CSS, JavaScript</li>
-            <li>Flutter (Android/iOS)</li>
-            <li>REST API development</li>
-            <li>Authentication &amp; CRUD operations</li>
-          </ul>
+          <div class="pill-row">
+            <span class="pill">PHP</span>
+            <span class="pill">HTML</span>
+            <span class="pill">CSS</span>
+            <span class="pill">JavaScript</span>
+            <span class="pill">Flutter</span>
+            <span class="pill">REST APIs</span>
+          </div>
         </div>
-        <div>
+        <div class="skill-col">
           <h3>Data &amp; ML</h3>
-          <ul>
-            <li>Pandas, NumPy, Scikit-Learn</li>
-            <li>EDA &amp; Hypothesis Testing</li>
-            <li>Regression, Decision Trees, Random Forest</li>
-            <li>Recommendation Systems</li>
-          </ul>
+          <div class="pill-row">
+            <span class="pill">Pandas</span>
+            <span class="pill">NumPy</span>
+            <span class="pill">Scikit-Learn</span>
+            <span class="pill">EDA</span>
+            <span class="pill">Hypothesis Testing</span>
+            <span class="pill">Regression / Trees</span>
+          </div>
         </div>
-        <div>
+        <div class="skill-col">
           <h3>Cyber &amp; IT</h3>
-          <ul>
-            <li>Threat &amp; Vulnerability Analysis</li>
-            <li>Networking: TCP/IP, DNS, DHCP, Subnetting</li>
-            <li>IT Support &amp; Troubleshooting</li>
-            <li>Active Directory, Microsoft 365</li>
-            <li>IoT &amp; Arduino, GSM Modules</li>
-          </ul>
+          <div class="pill-row">
+            <span class="pill">Threat Analysis</span>
+            <span class="pill">Vulnerability Assessment</span>
+            <span class="pill">TCP/IP</span>
+            <span class="pill">DNS / DHCP</span>
+            <span class="pill">Active Directory</span>
+            <span class="pill">IoT &amp; Arduino</span>
+          </div>
         </div>
       </div>
     </section>
@@ -91,157 +136,159 @@
     <!-- Projects -->
     <section id="projects" class="card">
       <h2>Highlighted Projects</h2>
+      <p class="section-intro">
+        A selection of my software, ML, IoT and research projects.
+      </p>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Unnayan Apps – Smart Complaint Management System</h3>
+          <p class="project-meta">Flutter · PHP · MySQL · REST API</p>
+          <p>
+            Full-stack complaint management platform that allows citizens to submit and track complaints.
+            Built a Flutter mobile app with PHP backend, RESTful endpoints, authentication and MySQL
+            database with an admin dashboard for authorities.
+          </p>
+        </article>
 
-      <article class="project">
-        <h3>Unnayan Apps – Smart Complaint Management System</h3>
-        <p class="project-tags">Flutter · PHP · MySQL · REST API</p>
-        <p>
-          Developed a full-stack mobile and web application to allow citizens to submit
-          complaints and track their status. Implemented Flutter-based UI, PHP backend,
-          REST endpoints, authentication, and MySQL database design, along with admin
-          dashboard and workflow automation.
-        </p>
-        <p class="project-links">
-          <a href="https://github.com/saifulislam181" target="_blank">View on GitHub (profile)</a>
-        </p>
-      </article>
+        <article class="project-card">
+          <h3>Hospital Management System</h3>
+          <p class="project-meta">PHP · MySQL · HTML/CSS/JS</p>
+          <p>
+            Developed a complete hospital management system including patient registration, doctor
+            appointments, bed management, blood donation management, and prescription modules with secure
+            CRUD operations and validation.
+          </p>
+        </article>
 
-      <article class="project">
-        <h3>Hospital Management System</h3>
-        <p class="project-tags">PHP · MySQL · HTML/CSS/JS</p>
-        <p>
-          Built a complete hospital management system with modules for patient
-          registration, doctor appointments, bed management, blood donation, and
-          prescription handling. Designed database schema and implemented backend logic
-          with secure CRUD operations.
-        </p>
-      </article>
+        <article class="project-card">
+          <h3>Health Score Prediction</h3>
+          <p class="project-meta">Python · Scikit-Learn · Data Mining</p>
+          <p>
+            Predicted health scores using lifestyle and demographic data. Performed EDA, data cleaning,
+            encoding and model training with Linear Regression, Decision Tree and tuned Random Forest,
+            achieving strong R² and low RMSE.
+          </p>
+        </article>
 
-      <article class="project">
-        <h3>Health Score Prediction (Data Mining &amp; ML)</h3>
-        <p class="project-tags">Python · Scikit-Learn · EDA</p>
-        <p>
-          Performed EDA, data cleaning, encoding, and predictive modelling to forecast
-          health scores using personal and lifestyle data. Compared Linear Regression,
-          Decision Tree, and Random Forest, with tuned Random Forest achieving the best
-          R² and RMSE performance.
-        </p>
-      </article>
+        <article class="project-card">
+          <h3>Student Performance EDA &amp; Hypothesis Testing</h3>
+          <p class="project-meta">Python · Statistics · Visualization</p>
+          <p>
+            Analysed student grade data using EDA, chi-square tests, t-tests and ANOVA, followed by a
+            linear regression model to predict final grades (G3). Visualised key relationships and
+            documented findings.
+          </p>
+        </article>
 
-      <article class="project">
-        <h3>Student Performance EDA &amp; Hypothesis Testing</h3>
-        <p class="project-tags">Python · Statistics · Visualization</p>
-        <p>
-          Analysed the <code>student-mat.csv</code> dataset, performed exploratory data
-          analysis, hypothesis testing (Chi-Square, T-Test, ANOVA), data visualization,
-          and built a linear regression model to predict final grades (G3).
-        </p>
-      </article>
+        <article class="project-card">
+          <h3>Movie Recommendation System</h3>
+          <p class="project-meta">Python · Recommendation System</p>
+          <p>
+            Implemented a content-based recommendation system, including similarity calculation,
+            preprocessing and evaluation. Showcased understanding of recommender system fundamentals.
+          </p>
+        </article>
 
-      <article class="project">
-        <h3>Movie Recommendation System</h3>
-        <p class="project-tags">Python · Recommendation System</p>
-        <p>
-          Implemented a movie recommendation system using similarity-based approaches.
-          Included data preprocessing, similarity computation, and evaluation of
-          recommendation quality.
-        </p>
-      </article>
+        <article class="project-card">
+          <h3>Smart Prepaid Energy Meter (IoT)</h3>
+          <p class="project-meta">IoT · GSM · Embedded Systems</p>
+          <p>
+            Designed an IoT-based prepaid energy meter using GSM modules for remote usage monitoring and
+            prepaid control, combining hardware and software logic to reduce billing errors.
+          </p>
+        </article>
 
-      <article class="project">
-        <h3>A Smart Prepaid Energy Meter (IoT)</h3>
-        <p class="project-tags">IoT · GSM · Embedded Systems</p>
-        <p>
-          Designed an IoT-based prepaid energy meter using GSM modules to track and
-          control energy usage remotely. Integrated hardware and software logic to
-          minimise billing errors and enable remote monitoring.
-        </p>
-      </article>
+        <article class="project-card">
+          <h3>IoMT-based m-Healthcare Model</h3>
+          <p class="project-meta">IoMT · Healthcare Analytics</p>
+          <p>
+            Proposed a healthcare monitoring model for chronic illnesses using IoMT devices, analysing
+            how real-time data can support doctor and patient decision-making.
+          </p>
+        </article>
 
-      <article class="project">
-        <h3>IoMT-based m-Healthcare Model for Type-2 Diabetes</h3>
-        <p class="project-tags">IoMT · Healthcare Analytics</p>
-        <p>
-          Proposed an IoMT-based healthcare model enabling remote monitoring of
-          patients with Type-2 diabetes. Analysed data patterns and discussed how
-          connected devices can help doctors and patients.
-        </p>
-      </article>
+        <article class="project-card">
+          <h3>Mental Health Prediction Study</h3>
+          <p class="project-meta">Machine Learning · Research</p>
+          <p>
+            Critically reviewed and implemented ML models such as Decision Trees and Naive Bayes for
+            predicting mental health-related risks, focusing on feature selection and model comparison.
+          </p>
+        </article>
 
-      <article class="project">
-        <h3>Mental Health Prediction (ML Study)</h3>
-        <p class="project-tags">Machine Learning · Predictive Analytics</p>
-        <p>
-          Conducted a critical review and implementation of ML methods to predict
-          mental health-related risk factors using decision trees, Naive Bayes, and
-          other classification approaches.
-        </p>
-      </article>
+        <article class="project-card">
+          <h3>Home Security System (subnetMusk)</h3>
+          <p class="project-meta">IoT · Home Automation</p>
+          <p>
+            Worked on a home security prototype integrating IoT sensors and automation to monitor home
+            devices and security events via an internet-connected system.
+          </p>
+        </article>
 
-      <article class="project">
-        <h3>Home Security System (subnetMusk)</h3>
-        <p class="project-tags">IoT · Home Automation</p>
-        <p>
-          Worked on a prototype home security system integrating IoT sensors and
-          automation to monitor lights, fans, and security events through an
-          internet-connected interface.
-        </p>
-      </article>
-
-      <article class="project">
-        <h3>Cyber Crime – What Engineers Can Do</h3>
-        <p class="project-tags">Cyber Security · Research</p>
-        <p>
-          Authored reports on cybercrime, malware, DoS, and social engineering, focusing
-          on how engineers can design more secure systems and mitigate threats through
-          better architecture and processes.
-        </p>
-      </article>
+        <article class="project-card">
+          <h3>Cyber Crime – What Engineers Can Do</h3>
+          <p class="project-meta">Cyber Security · Documentation</p>
+          <p>
+            Produced in-depth documentation exploring cyber crime, malware, DoS, phishing and human
+            vulnerabilities, describing how engineers can design more secure systems.
+          </p>
+        </article>
+      </div>
     </section>
 
     <!-- Experience -->
     <section id="experience" class="card">
       <h2>Experience</h2>
-
-      <div class="exp-item">
-        <h3>Security Operations Engineer</h3>
-        <p class="exp-meta">Enterprise InfoSec Consultant · Dhaka · Feb 2023 – Aug 2023</p>
-        <ul>
-          <li>Conducted red team simulations and vulnerability assessments to identify system weaknesses.</li>
-          <li>Monitored security events and supported incident analysis and documentation.</li>
-          <li>Collaborated with IT teams to strengthen cyber security controls.</li>
-        </ul>
-      </div>
-
-      <div class="exp-item">
-        <h3>Software Quality Assurance Engineer</h3>
-        <p class="exp-meta">Quality Up Services · Dhaka · Sep 2022 – Jan 2023</p>
-        <ul>
-          <li>Developed and executed test plans, test cases, and scripts for web and mobile apps.</li>
-          <li>Logged and tracked defects and worked closely with developers to resolve issues.</li>
-        </ul>
-      </div>
-
-      <div class="exp-item">
-        <h3>Retail Assistant / Warehouse Operative</h3>
-        <p class="exp-meta">Cardiff &amp; Newport, UK · 2024 – Present</p>
-        <ul>
-          <li>Handled POS systems, scanners, and basic device troubleshooting.</li>
-          <li>Developed strong customer service, communication, and teamwork skills.</li>
-        </ul>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div class="content">
+            <h3>Security Operations Engineer</h3>
+            <p class="exp-meta">Enterprise InfoSec Consultant · Dhaka · Feb 2023 – Aug 2023</p>
+            <ul>
+              <li>Conducted red team simulations and vulnerability assessments.</li>
+              <li>Monitored security events and contributed to incident analysis.</li>
+              <li>Supported strengthening of cybersecurity controls and documentation.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div class="content">
+            <h3>Software Quality Assurance Engineer</h3>
+            <p class="exp-meta">Quality Up Services · Dhaka · Sep 2022 – Jan 2023</p>
+            <ul>
+              <li>Designed and executed test cases for web and mobile applications.</li>
+              <li>Reported and tracked defects, collaborating closely with developers.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div class="content">
+            <h3>Retail Assistant &amp; Warehouse Operative</h3>
+            <p class="exp-meta">Cardiff &amp; Newport, UK · 2024 – Present</p>
+            <ul>
+              <li>Handled POS systems, scanners and basic device troubleshooting.</li>
+              <li>Developed strong customer service, communication and teamwork skills.</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- Education -->
     <section id="education" class="card">
       <h2>Education</h2>
-      <div class="edu-item">
-        <h3>MSc in Advanced Computer Science</h3>
-        <p class="exp-meta">University of South Wales · Cardiff, UK · 2025</p>
-      </div>
-      <div class="edu-item">
-        <h3>BSc in Computer Science &amp; Engineering</h3>
-        <p class="exp-meta">United International University · Dhaka, Bangladesh · 2018–2022</p>
+      <div class="edu-list">
+        <div class="edu-item">
+          <h3>MSc in Advanced Computer Science</h3>
+          <p class="exp-meta">University of South Wales · Cardiff, UK · 2025</p>
+        </div>
+        <div class="edu-item">
+          <h3>BSc in Computer Science &amp; Engineering</h3>
+          <p class="exp-meta">United International University · Dhaka, Bangladesh · 2018–2022</p>
+        </div>
       </div>
     </section>
 
@@ -249,8 +296,7 @@
     <section id="contact" class="card">
       <h2>Contact</h2>
       <p>
-        If you would like to discuss opportunities, collaborations, or just say hello,
-        feel free to reach out.
+        For roles in software development, data/ML, cyber security or IT support, feel free to reach out.
       </p>
       <ul class="contact-list">
         <li>Email: <a href="mailto:saifulislam.cse.uiu@gmail.com">saifulislam.cse.uiu@gmail.com</a></li>
@@ -264,12 +310,24 @@
 
   <footer class="footer">
     <div class="container">
-      <p>© <span id="year"></span> Md. Saiful Islam · Built with HTML &amp; CSS</p>
+      <p>© <span id="year"></span> Md. Saiful Islam · Portfolio</p>
     </div>
   </footer>
 
   <script>
+    // Year
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Smooth scroll (basic)
+    document.querySelectorAll('header nav a').forEach(link => {
+      link.addEventListener('click', e => {
+        const href = link.getAttribute('href');
+        if (href && href.startsWith('#')) {
+          e.preventDefault();
+          document.querySelector(href).scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
   </script>
 </body>
 </html>
