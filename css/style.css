@@ -141,4 +141,698 @@ p {
 
 /* ================================
    Sections & Headings
-   ========================
+   ================================ */
+
+.ftco-section {
+  padding: 5rem 0;
+  position: relative;
+}
+
+.ftco-section.bg-light {
+  background: var(--bg-light);
+}
+
+.heading-section {
+  margin-bottom: 2.5rem;
+}
+
+.heading-section.text-center {
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading-section .subheading {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  display: inline-block;
+  margin-bottom: 0.4rem;
+}
+
+.heading-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.heading-section p {
+  margin-top: 0.75rem;
+}
+
+/* ================================
+   Hero / Home
+   ================================ */
+
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.home-slider .slider-item {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: stretch;
+}
+
+.home-slider .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #020617;
+  opacity: 0.4;
+}
+
+.slider-item .one-third {
+  position: relative;
+  min-height: 100vh;
+}
+
+.slider-item .img {
+  background-size: cover;
+  background-position: center;
+}
+
+.slider-item .overlay-1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(15, 23, 42, 0.15),
+    rgba(15, 23, 42, 0.7)
+  );
+}
+
+.slider-item .one-forth {
+  padding: 5rem 3rem;
+}
+
+.slider-item .text {
+  position: relative;
+  z-index: 10;
+  max-width: 500px;
+}
+
+.slider-item .subheading {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: #e5e7eb;
+  font-weight: 500;
+}
+
+.slider-item h1 {
+  font-size: 2.4rem;
+  line-height: 1.3;
+  color: #ffffff;
+}
+
+.slider-item p {
+  color: #e5e7eb;
+}
+
+.slider-item .btn {
+  margin-right: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+/* Owl arrows / dots basic tweaks */
+
+.owl-carousel.home-slider .owl-nav button.owl-prev,
+.owl-carousel.home-slider .owl-nav button.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 999px;
+  width: 40px;
+  height: 40px;
+  outline: none;
+  border: none;
+  background: rgba(15, 23, 42, 0.65);
+  color: #fff;
+}
+
+.owl-carousel.home-slider .owl-nav button.owl-prev {
+  left: 20px;
+}
+
+.owl-carousel.home-slider .owl-nav button.owl-next {
+  right: 20px;
+}
+
+/* ================================
+   Counter Section
+   ================================ */
+
+.ftco-counter {
+  padding: 4rem 0;
+}
+
+.ftco-counter .block-18 {
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  width: 100%;
+  border: 1px solid var(--border-soft);
+}
+
+.ftco-counter .icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.08);
+  margin-right: 1rem;
+}
+
+.ftco-counter .icon span {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.ftco-counter .number {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+/* ================================
+   About Section
+   ================================ */
+
+.ftco-about {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.img-about {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.5rem;
+}
+
+.img-about .img {
+  background-size: cover;
+  background-position: center;
+}
+
+.img-about .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(37, 99, 235, 0.25),
+    rgba(15, 23, 42, 0.7)
+  );
+  mix-blend-mode: multiply;
+}
+
+.about-info {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0;
+}
+
+.about-info li {
+  font-size: 0.9rem;
+  border-bottom: 1px dashed var(--border-soft);
+  padding: 0.3rem 0;
+}
+
+.about-info li span:first-child {
+  width: 130px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+/* Interests */
+
+.my-interest {
+  margin-top: 1.5rem;
+}
+
+.interest-wrap {
+  background: #ffffff;
+  border-radius: 999px;
+  padding: 0.25rem 0.9rem;
+  margin-right: 0.75rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid var(--border-soft);
+}
+
+.interest-wrap .icon {
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.08);
+  margin-right: 0.4rem;
+}
+
+.interest-wrap .icon span {
+  font-size: 0.9rem;
+  color: var(--primary-color);
+}
+
+.interest-wrap .text {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* ================================
+   Skills Section - Progress Circles
+   ================================ */
+
+.progress-circle .bg-white {
+  border-radius: 1.25rem !important;
+}
+
+.progress {
+  width: 140px;
+  height: 140px;
+  line-height: 140px;
+  background: none;
+  margin: 0 auto;
+  box-shadow: none;
+  position: relative;
+  text-align: center;
+}
+
+.progress::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 8px solid #e5e7eb;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.progress > span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.progress .progress-left {
+  left: 0;
+}
+
+.progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  border-width: 8px;
+  border-style: solid;
+  border-color: var(--primary-color);
+  position: absolute;
+  top: 0;
+}
+
+.progress .progress-left .progress-bar {
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  transform-origin: center right;
+}
+
+.progress .progress-right {
+  right: 0;
+}
+
+.progress .progress-right .progress-bar {
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  transform-origin: center left;
+}
+
+.progress .progress-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.progress .progress-value div {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* Animation - use JS to add rotation; fallback with 50% demo */
+
+.progress[data-value="75"] .progress-right .progress-bar {
+  transform: rotate(180deg);
+}
+
+.progress[data-value="75"] .progress-left .progress-bar {
+  transform: rotate(90deg);
+}
+
+.progress[data-value="80"] .progress-right .progress-bar {
+  transform: rotate(180deg);
+}
+
+.progress[data-value="80"] .progress-left .progress-bar {
+  transform: rotate(108deg);
+}
+
+.progress[data-value="85"] .progress-right .progress-bar {
+  transform: rotate(180deg);
+}
+
+.progress[data-value="85"] .progress-left .progress-bar {
+  transform: rotate(126deg);
+}
+
+/* ================================
+   Services
+   ================================ */
+
+.services {
+  border-radius: 1.25rem;
+  padding: 1.7rem 1.5rem;
+  border: 1px solid var(--border-soft);
+  background: #ffffff;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.services .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.08);
+  margin-bottom: 0.7rem;
+}
+
+.services .icon span {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.services .heading {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.services p {
+  font-size: 0.9rem;
+}
+
+/* Hover effect */
+
+.services,
+.blog-entry,
+.project {
+  transition: transform 0.2s ease, box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.services:hover,
+.blog-entry:hover,
+.project:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 40px rgba(15, 23, 42, 0.1);
+  border-color: rgba(37, 99, 235, 0.25);
+}
+
+/* ================================
+   Hire Me / Call To Action
+   ================================ */
+
+.ftco-hireme {
+  background: linear-gradient(
+      135deg,
+      rgba(37, 99, 235, 0.95),
+      rgba(15, 23, 42, 1)
+    ),
+    url("../images/bg_2.jpg") center/cover no-repeat;
+  color: #ffffff;
+  padding: 3rem 0;
+}
+
+.ftco-hireme h2 {
+  color: #ffffff;
+  font-size: 1.7rem;
+}
+
+.ftco-hireme p {
+  color: #e5e7eb;
+}
+
+/* ================================
+   Projects Section
+   ================================ */
+
+.ftco-project {
+  background: #ffffff;
+}
+
+.project {
+  height: 260px;
+  border-radius: 1.5rem;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.project .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(15, 23, 42, 0.1),
+    rgba(15, 23, 42, 0.75)
+  );
+}
+
+.project .text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #ffffff;
+}
+
+.project .text h3 {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.project .text span {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+}
+
+/* ================================
+   Blog / Research Cards
+   ================================ */
+
+.blog-entry {
+  border-radius: 1.25rem;
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid var(--border-soft);
+}
+
+.blog-entry .text {
+  padding: 1.1rem 1.25rem 1.25rem;
+}
+
+.blog-entry .heading {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.blog-entry .meta {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--accent-color);
+}
+
+/* ================================
+   Contact Section
+   ================================ */
+
+.contact-section {
+  background: #ffffff;
+}
+
+.contact-form {
+  border-radius: 1.5rem;
+  border: 1px solid var(--border-soft);
+}
+
+.contact-form .form-control {
+  border-radius: 999px;
+  border: 1px solid var(--border-soft);
+  font-size: 0.9rem;
+  box-shadow: none;
+}
+
+.contact-form textarea.form-control {
+  border-radius: 1rem;
+  resize: vertical;
+}
+
+.contact-info .box {
+  border-radius: 1.5rem;
+  border: 1px solid var(--border-soft);
+}
+
+.dbox .icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.08);
+  margin-right: 0.75rem;
+}
+
+.dbox .icon span {
+  color: var(--primary-color);
+}
+
+.dbox span {
+  display: block;
+  font-size: 0.85rem;
+}
+
+/* ================================
+   Footer
+   ================================ */
+
+.ftco-footer {
+  padding: 2.5rem 0;
+  background: var(--bg-dark);
+  color: #9ca3af;
+}
+
+.ftco-footer p {
+  color: #9ca3af;
+}
+
+.ftco-footer a {
+  color: #e5e7eb;
+}
+
+.ftco-footer a:hover {
+  color: #ffffff;
+}
+
+/* ================================
+   Utilities / Misc
+   ================================ */
+
+.bg-light {
+  background: var(--bg-light) !important;
+}
+
+.bg-white {
+  background: #ffffff !important;
+}
+
+/* Spacing helpers */
+
+.pb-5 {
+  padding-bottom: 3rem !important;
+}
+
+.pt-5 {
+  padding-top: 3rem !important;
+}
+
+/* Social icons (if used) */
+
+.ftco-footer-social li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+/* ================================
+   Animations placeholder
+   (animate.css will handle most)
+   ================================ */
+
+.ftco-animate {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* ================================
+   Responsive Styles
+   ================================ */
+
+@media (max-width: 991.98px) {
+  .slider-item .one-forth {
+    padding: 4.5rem 1.5rem 4rem;
+  }
+
+  .slider-item h1 {
+    font-size: 2rem;
+  }
+
+  .navbar-nav {
+    padding-top: 0.75rem;
+  }
+
+  .ftco-hireme {
+    text-align: center;
+  }
+
+  .ftco-hireme .btn {
+    margin-top: 1rem;
+  }
+
+  .img-about {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .ftco-section {
+    padding: 3.5rem 0;
+  }
+
+  .heading-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .project {
+    height: 220px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .slider-item h1 {
+    font-size: 1.7rem;
+  }
+
+  .slider-item .text {
+    max-width: 100%;
+  }
+
+  .progress {
+    width: 120px;
+    height: 120px;
+  }
+
+  .progress::after {
+    border-width: 7px;
+  }
+
+  .progress .progress-bar {
+    border-width: 7px;
+  }
+}
